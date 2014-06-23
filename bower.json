@@ -1,0 +1,7 @@
+{
+  "name": "es6-playground",
+  "private": true,
+  "dependencies": {
+    "traceur": "~0.0.45"
+  }
+}

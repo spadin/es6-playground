@@ -1,0 +1,10 @@
+{
+  "name": "es6-playground",
+  "devDependencies": {
+    "gulp": "^3.8.1",
+    "gulp-traceur": "^0.7.0"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  }
+}
