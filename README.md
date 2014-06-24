@@ -17,6 +17,10 @@ A simple project to play around with new ES6 features using Traceur.
 
     $ npm run gulp
 
+## Working on app
+
+    $ npm run gulp-watch
+
 ## Start a server to preview
 
     $ cd public
