@@ -15,11 +15,11 @@ A simple project to play around with new ES6 features using Traceur.
 
 ## Compiling the app
 
-    $ npm run gulp
+    $ npm run build
 
 ## Working on app
 
-    $ npm run gulp-watch
+    $ npm run watch
 
 ## Start a server to preview
 

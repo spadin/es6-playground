@@ -5,7 +5,7 @@
     "gulp-traceur": "^0.7.0"
   },
   "scripts": {
-    "gulp":       "gulp",
-    "gulp-watch": "gulp watch"
+    "build": "gulp",
+    "watch": "gulp watch"
   }
 }
