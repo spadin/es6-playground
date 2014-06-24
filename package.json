@@ -2,10 +2,12 @@
   "name": "es6-playground",
   "devDependencies": {
     "gulp": "^3.8.1",
-    "gulp-traceur": "^0.7.0"
+    "gulp-traceur": "^0.7.0",
+    "node-static": "^0.7.3"
   },
   "scripts": {
-    "build": "gulp",
-    "watch": "gulp watch"
+    "build":  "gulp",
+    "watch":  "gulp watch",
+    "server": "static public"
   }
 }

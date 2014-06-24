@@ -23,6 +23,5 @@ A simple project to play around with new ES6 features using Traceur.
 
 ## Start a server to preview
 
-    $ cd public
-    $ python -m SimpleHTTPServer
-    $ open http://localhost:8000
+    $ npm run server
+    $ open http://localhost:8080
