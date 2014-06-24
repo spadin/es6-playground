@@ -1,7 +1,21 @@
-class App {
-  constructor() {
-    console.log('hello world from App')
-  }
-}
+var KlassExample = (function() {
+  var privateFunctionSymbol;
+  privateFunctionSymbol = Symbol()
 
-var app = new App();
+  return class {
+    constructor() {
+      console.log('hello world')
+      this[privateFunctionSymbol]()
+    }
+        publicFunction() {
+            console.log('public function')
+      }
+    [privateFunctionSymbol]() {
+      console.log('private function')
+    }
+  }
+})()
+
+var c = new KlassExample()
+c.publicFunction();
+console.log(c);
